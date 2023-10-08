@@ -33,14 +33,7 @@ html {
     height: 54.55px;
     position: fixed;
 }
-#langu{
-    display: inline-block;
-    height: 100%;
-    float: right;
-    margin-top: 15px;
-    margin-right: 20px;
-    overflow: hidden;
-}
+
 .co{
     width: 30px;
     height: 20px;
@@ -173,4 +166,15 @@ html {
 #learn-cpp{
     background-color: #f1f1f1;
     color: black;
+    }
+
+
+    #langu{
+        display: inline-block;
+        height: 100%;
+        
+        margin-top: 15px;
+        margin-right: 20px;
+        overflow: hidden;
+        float: right;
     }
