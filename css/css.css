@@ -149,6 +149,14 @@ html {
     font-weight: bold;
     
 }
+.td1-button:hover{
+    background-color: #185828;
+
+}
+.td1-button:hover a{
+    color: #E7E9EB;
+
+}
 .td2{
     background-color: #E7E9EB;
     color: black;
@@ -178,3 +186,47 @@ html {
         overflow: hidden;
         float: right;
     }
+
+
+
+
+
+
+
+    
+#futer{
+
+    margin: 200px 100px 0px 100px;
+    background-color: #282A35;
+    height: 200px;
+    border-radius: 10px;
+    color: #fff;
+    
+}
+#futer p{
+padding-left:30px;
+padding-top: 20px;
+}
+#icons{
+padding-left: 30px;
+padding-top: 30px;
+position: relative;
+}
+.iconapp{
+width: 35px;
+height: 35px;
+display: inline-block;
+position: relative;
+overflow: hidden;
+}
+.iconapp .icon{
+width: 35px;
+height: 35px;
+border-radius: 7px;
+width: 100%; /* Để đảm bảo ảnh điền vào phần container */
+height: 100%; /* Để đảm bảo ảnh điền vào phần container */
+transition: transform 0.3s ease;
+}
+.iconapp .icon:hover{
+    transform: scale(1.2);
+}
